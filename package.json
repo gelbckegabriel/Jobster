@@ -1,0 +1,29 @@
+{
+  "name": "jobster",
+  "version": "1.0.0",
+  "description": "This is a project developed in my JavaScript course with a focus on a job finder web site for I.T workers.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "jobster",
+    "job",
+    "finder",
+    "jobs",
+    "opportunities",
+    "job"
+  ],
+  "author": "Gabriel Gelbcke",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "sequelize": "^6.28.0",
+    "sqlite3": "^5.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
